@@ -1,6 +1,17 @@
 {
   "app": "busybar-paper-yield",
-  "sha256": "6018e24ef0acd8ed6e9e5e078eb67285c8fbc8d73138ea08b96e9257131a75cf",
+  "sha256": "5596b88ca01509a37e33d795449e5709c49ec97d2d75f987d3b1d192edb231af",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.paperyield",
+    "sha256": "5596b88ca01509a37e33d795449e5709c49ec97d2d75f987d3b1d192edb231af",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 94.7,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,

@@ -2,7 +2,7 @@
   "format_version": 1,
   "id": "io.ncoooooper.paperyield",
   "name": "Paper Yield",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "api_version": "27.12.0",
   "description": "Compare both cutting orientations and find the better rectangular label yield per sheet.",
   "author": "ncoooooper"
