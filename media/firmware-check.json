@@ -1,0 +1,17 @@
+{
+  "id": "BB-068",
+  "source": "Local on-device computation using editable numeric inputs.",
+  "scenario": "With 5 mm margins and a 2 mm gap, 50×30 mm labels on A4 give 27 upright or 30 rotated.",
+  "keys": [
+    "up",
+    "down",
+    "ok",
+    "up",
+    "down",
+    "start"
+  ],
+  "frames": 54,
+  "distinct_frames": 21,
+  "exit": "App io.ncoooooper.paperyield exited: finished; heap peak 84.9 of 128 KiB",
+  "sha256": "a3e1123c60194712d1a3ef2552015b423124e6ee36518cc47c684ad0ca13baf4"
+}

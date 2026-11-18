@@ -4,6 +4,6 @@
   "name": "Paper Yield",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Paper Yield",
+  "description": "Compare both cutting orientations and find the better rectangular label yield per sheet.",
   "author": "ncoooooper"
 }

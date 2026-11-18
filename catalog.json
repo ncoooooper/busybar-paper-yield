@@ -1,0 +1,6 @@
+{
+  "category": "utilities",
+  "short_description": "Compare both cutting orientations and find the better rectangular label yield per sheet.",
+  "description": "Compare both cutting orientations and find the better rectangular label yield per sheet. With 5 mm margins and a 2 mm gap, 50×30 mm labels on A4 give 27 upright or 30 rotated.",
+  "changelog": "First public version."
+}
