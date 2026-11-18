@@ -2,14 +2,38 @@
 
 Compare both cutting orientations and find the better rectangular label yield per sheet.
 
-With 5 mm margins and a 2 mm gap, 50×30 mm labels on A4 give 27 upright or 30 rotated.
+Turning every label through 90 degrees can save a sheet. Paper Yield compares the two regular grids with the same margins and cutter gap, then shows how the winning grid is laid out.
 
-Turn the wheel to browse results. Click to edit inputs, turn to change the selected value, click to select the next parameter, and press Start to return to results. Hold the wheel button in the editor to restore that parameter's starting value. Parameters persist on this device.
+## Compare label orientations
 
-Inputs: Sheet wide (1 to 2000 mm), Sheet high (1 to 2000 mm), Label wide (1 to 500 mm), Label high (1 to 500 mm), Margin (0 to 100 mm), Gap (0 to 50 mm).
+1. Enter sheet width and height, label width and height, outside margin and gap in millimeters. Click to move through fields, turn to change a value, then press **Start**.
+2. Read **Best yield**. The rear tells you the orientation and grid dimensions.
+3. Turn through **Upright** and **Rotated** to check both counts. The recorded example goes from 30 best to 27 upright.
 
-## Run locally
+![The best yield of 30 labels gives way to the upright yield of 27.](media/guide/compare-orientations.gif)
 
-From this folder, run `~/.busy-emulator/bin/busy-emulator dev --once` with BUSY Bar Emulator open. Back exits.
+## Try a different stock size
 
-![BUSY Bar front display](screenshots/front-1.png)
+1. Click from the results to enter the sheet editor. Adjust width or advance to height if the stock size has changed.
+2. Return to the results. Recheck the indicated orientation before laying out the sheet for cutting.
+3. The example briefly changes a 210 mm sheet to 211 mm, restores it and returns to the 30-piece result.
+
+![Sheet width is increased and restored before the 30-piece best yield returns.](media/guide/adjust-sheet-width.gif)
+
+## Example from the emulator
+
+On 210×297 mm stock with 5 mm margins, the usable rectangle is 200×287 mm. A uniform grid of 50×30 mm labels and 2 mm gaps gives three by nine upright or six by five rotated. The calculator compares these two uniform grids.
+
+## Run in the emulator
+
+Open BUSY Bar Emulator. From this repository, run:
+
+```sh
+~/.busy-emulator/bin/busy-emulator dev --once
+```
+
+Press **Back** to exit.
+
+The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+
+[Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
