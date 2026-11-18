@@ -6,6 +6,20 @@ Turning every label through 90 degrees can save a sheet. Paper Yield compares th
 
 The small sheet previews the upper-left corner of each cutting layout. The tiles rotate with the selected orientation. The front number and rear row and column counts give the yield for the entire sheet.
 
+## Screen transitions
+
+Change the label orientation and stock size, then read the yield.
+
+![Paper Yield front display. Change the label orientation and stock size, then read the yield.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Paper Yield rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Compare label orientations
 
 1. Enter sheet width and height, label width and height, outside margin and gap in millimeters. Click to move through fields, turn to change a value, then press **Start**.
@@ -36,6 +50,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)

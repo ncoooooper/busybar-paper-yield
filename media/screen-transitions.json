@@ -1,0 +1,50 @@
+{
+  "app": "busybar-paper-yield",
+  "sha256": "6018e24ef0acd8ed6e9e5e078eb67285c8fbc8d73138ea08b96e9257131a75cf",
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "classic",
+      "guides": [
+        "compare-orientations",
+        "adjust-sheet-width"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "up"
+        ],
+        [
+          "down",
+          "ok",
+          "up",
+          "down",
+          "start"
+        ],
+        [
+          "down",
+          "up",
+          "ok"
+        ]
+      ],
+      "distinct_frames": [
+        7,
+        31,
+        54
+      ],
+      "rear_frames": 10,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}

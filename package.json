@@ -1,7 +1,7 @@
 {
   "name": "busybar-paper-yield",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compare both cutting orientations and find the better rectangular label yield per sheet.",
   "author": "ncoooooper",
   "type": "module",
