@@ -51,4 +51,4 @@ const fields=[
     "step": 1
   }
 ];
-worksheet({name:"Paper Yield",fields,calculate,accent:"#ECA64C",motion:{"motif":"shuttle","color":"#ECA64C","shine":"#FFF0BB"}});
+worksheet({name:"Paper Yield",fields,calculate,accent:"#ECA64C",motion:{enabled:false}});

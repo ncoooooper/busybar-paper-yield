@@ -4,6 +4,8 @@ Compare both cutting orientations and find the better rectangular label yield pe
 
 Turning every label through 90 degrees can save a sheet. Paper Yield compares the two regular grids with the same margins and cutter gap, then shows how the winning grid is laid out.
 
+The small sheet previews the upper-left corner of each cutting layout. The tiles rotate with the selected orientation. The front number and rear row and column counts give the yield for the entire sheet.
+
 ## Compare label orientations
 
 1. Enter sheet width and height, label width and height, outside margin and gap in millimeters. Click to move through fields, turn to change a value, then press **Start**.
